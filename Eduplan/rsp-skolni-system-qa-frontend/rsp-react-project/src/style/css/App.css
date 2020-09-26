@@ -1,0 +1,168 @@
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.page-footer {
+    height: 5%;
+}
+
+.header {
+    height: 5%;
+    background-color: #33adff;
+}
+
+.menu-item:hover {
+    color: #0b2e13;
+    box-shadow: inset 0 -4px 0 #007bff;
+}
+
+.row {
+    height: 100%;
+}
+
+html, body, #root, .App {
+    height: 100%;
+}
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.page-footer {
+    background-color: black;
+    height: calc(100% - 60px);
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.footer-style-custom {
+    background-color: #33adff;
+    font-size: 20px;
+    color: white;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 11px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+}
+
+.footer-style-custom-children {
+    display: block;
+    padding: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.p-footer {
+    color: white;
+    font-size: 15px;
+    margin-bottom: auto;
+}
+
+.loading-custom-style {
+    height: 50rem;
+    min-height: 100%;
+}
+
+.nav-item-custom-style {
+    background-image: linear-gradient(white, #4D83FF);
+    border-color: red;
+    border-width: 10px;
+    text-align: center;
+    width: 110px;
+    border-radius: 40px;
+    /*background: blue;*/
+    margin-left: 0 !important;
+}
+
+.nav-item-custom-style-selected {
+    background-image: linear-gradient(#0B02FF, #FAF700);
+    border-color: red;
+    border-width: 10px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    /*background: blue;*/
+    margin-left: 0 !important;
+    border-style: solid;
+}
+
+.navbar-custom {
+    height: 100%;
+    background-color: #33adff !important;
+    border-top: 3px solid dodgerblue !important;
+    border-right: 3px solid dodgerblue !important;
+    border-top-right-radius: 120px !important;
+    border-bottom-right-radius: 120px !important;
+    width: 100% !important;
+}
+
+.button-table-custom {
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    min-height: 100%;
+    width: 180px;
+    background-color: #33adff !important;
+    border-top-left-radius: 120px !important;
+    border-bottom-left-radius: 120px !important;
+    border-top: 3px solid dodgerblue !important;
+    border-left: 3px solid dodgerblue !important;
+}
+
+.table-custom {
+    border-bottom: 2px solid #33adff !important;
+}
+
+.nav-active {
+    color: #31FF2D !important;
+}
+
+.horse-style {
+    position: relative;
+    height: 75px;
+    width: 105px;
+    animation:runningHorse 10s infinite;
+}
+
+.span-event {
+    color: black !important;
+}
+
+@keyframes runningHorse{
+    from{
+        margin-left: -20%;
+    }
+    to{
+        margin-left:150%;
+    }
+}
+
+
